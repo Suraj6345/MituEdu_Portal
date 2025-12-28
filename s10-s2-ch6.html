@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Animal Classification | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Animal Classification</h1>
+            <button class="btn-audio" onclick="playAnimalIntro()">🔊 Listen to Classification</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>What are the criteria for the New System of Classification?</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li><strong>Levels of Organization:</strong> Cellular, Tissue, Organ, or Organ-system level.</li>
+                    <li><strong>Body Symmetry:</strong> Asymmetrical, Radial, or Bilateral symmetry.</li>
+                    <li><strong>Body Cavity (Coelom):</strong> Acoelomate, Pseudocoelomate, or Eucoelomate.</li>
+                    <li><strong>Germ Layers:</strong> Diploblastic or Triploblastic.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>Give the characteristics of Phylum Arthropoda.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>This is the <strong>largest phylum</strong> in the animal kingdom.</li>
+                    <li>These animals have <strong>jointed appendages</strong>.</li>
+                    <li>Body is triploblastic, bilaterally symmetrical, and segmented.</li>
+                    <li>Exoskeleton is made of <strong>Chitin</strong>. (e.g., Cockroach, Butterfly, Crab).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playAnimalIntro() {
+            const msg = new SpeechSynthesisUtterance("Chapter 6 is about the Animal Kingdom. Learn the unique features of Phylum Porifera to Phylum Chordata.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>

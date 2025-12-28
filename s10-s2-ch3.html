@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: Life Processes 2 | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Life Processes in Living Organisms - Part 2</h1>
+            <button class="btn-audio" onclick="playBio3()">🔊 Listen to Reproduction</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>Explain Double Fertilization in Plants.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>Pollen grains reach the stigma via pollination and germinate.</li>
+                    <li>Two male gametes are released through the pollen tube.</li>
+                    <li>One male gamete unites with the <strong>egg cell</strong> to form a zygote.</li>
+                    <li>The second male gamete unites with <strong>two polar nuclei</strong> to form the endosperm.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>What are the methods of Asexual Reproduction in unicellular organisms?</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li><strong>Binary Fission:</strong> The parent cell divides into two equal daughter cells (e.g., Amoeba).</li>
+                    <li><strong>Multiple Fission:</strong> Occurs during unfavorable conditions (e.g., Amoeba forming a cyst).</li>
+                    <li><strong>Budding:</strong> A small bud comes out from the parent cell (e.g., Yeast).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playBio3() {
+            const msg = new SpeechSynthesisUtterance("Chapter 3 covers reproduction. Important topics include the parts of a flower and the human reproductive system.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>

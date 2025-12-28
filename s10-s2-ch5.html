@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5: Green Energy | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Towards Green Energy</h1>
+            <button class="btn-audio" onclick="playGreenIntro()">🔊 Listen to Power Generation</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>Why is Thermal energy not considered eco-friendly?</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>Burning of coal releases harmful gases like <strong>CO2, SO2, and NO2</strong>.</li>
+                    <li>It leads to <strong>Air Pollution</strong> and global warming.</li>
+                    <li>Coal is a non-renewable (limited) source of energy.</li>
+                    <li>It causes health respiratory problems in humans.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>What are the advantages of Hydroelectric Energy?</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>No fuel is burnt, so no air pollution.</li>
+                    <li>Water can be reused as it is a <strong>renewable</strong> source.</li>
+                    <li>Continuous supply of electricity is possible as long as there is water in the dam.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playGreenIntro() {
+            const msg = new SpeechSynthesisUtterance("Chapter 5 explains power plants. Focus on the flowcharts for Thermal, Nuclear, and Solar energy.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>

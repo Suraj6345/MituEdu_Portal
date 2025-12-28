@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4: Environmental Management | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Environmental Management</h1>
+            <button class="btn-audio" onclick="playEnvIntro()">🔊 Listen to Biodiversity</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>Explain the three levels of Biodiversity.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li><strong>Genetic Diversity:</strong> Diversity among organisms of the same species (e.g., each human is different).</li>
+                    <li><strong>Species Diversity:</strong> Innumerable species of organisms occur in nature (e.g., plants, animals, microbes).</li>
+                    <li><strong>Ecosystem Diversity:</strong> Many ecosystems (forests, deserts, ponds) exist in a region.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>What is your role in Environmental conservation?</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li><strong>Prevention:</strong> Preventing possible hazards and stopping harmful activities.</li>
+                    <li><strong>Control:</strong> Controlling the current pollution and changing old mindsets.</li>
+                    <li><strong>Production:</strong> Planting more trees and protecting local species.</li>
+                    <li><strong>Awareness:</strong> Education, guidance, and organization for protection.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playEnvIntro() {
+            const msg = new SpeechSynthesisUtterance("Chapter 4 is about protecting our planet. Learn the 3 levels of biodiversity and the roles we play in conservation.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+    
+</body>
+</html>

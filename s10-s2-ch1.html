@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Heredity and Evolution | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Heredity and Evolution</h1>
+            <button class="btn-audio" onclick="playBioIntro()">🔊 Listen to Summary</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>Explain the process of Transcription.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>Transcription is the process of synthesis of <strong>mRNA</strong> as per the sequence of nucleotides on DNA.</li>
+                    <li>Only one of the two strands of DNA is used in this process.</li>
+                    <li>The sequence of nucleotides in mRNA being produced is always complementary to the DNA strand used for synthesis.</li>
+                    <li>This process occurs inside the <strong>nucleus</strong>.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>Define Evolution and mention its evidences.</h3>
+            </div>
+            <div class="answer-box">
+                <p><strong>Evolution:</strong> It is the gradual change occurring in living organisms over a long duration.</p>
+                <ul class="point-list">
+                    <li><strong>Morphological Evidences:</strong> Similarities in external features like shape of mouth or position of eyes.</li>
+                    <li><strong>Anatomical Evidences:</strong> Similarities in bone structure (e.g., human hand and foreleg of ox).</li>
+                    <li><strong>Vestigial Organs:</strong> Degenerated or underdeveloped useless organs (e.g., Appendix, Wisdom teeth).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playBioIntro() {
+            const msg = new SpeechSynthesisUtterance("Chapter 1 covers how traits are passed down and how life changes over time. Key topics include Transcription, Translation, and Darwin's Theory.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>

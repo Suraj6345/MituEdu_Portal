@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2: Life Processes 1 | MituEdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mitu<span>Edu</span></div>
+        <a href="std10-sci2.html" class="back-link">← Chapter List</a>
+    </nav>
+
+    <div class="main-container">
+        <header class="chapter-header">
+            <h1>Life Processes in Living Organisms - Part 1</h1>
+            <button class="btn-audio" onclick="playBio2()">🔊 Listen to Cell Division</button>
+        </header>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q1.</span>
+                <h3>Explain the process of Glycolysis.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li>It is the first step of aerobic and anaerobic respiration.</li>
+                    <li>It occurs in the <strong>cytoplasm</strong> of the cell.</li>
+                    <li>One molecule of glucose is oxidized step-by-step into two molecules each of: <strong>Pyruvic acid, ATP, NADH2, and Water</strong>.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="q-header">
+                <span class="q-no">Q2.</span>
+                <h3>Distinguish between Mitosis and Meiosis.</h3>
+            </div>
+            <div class="answer-box">
+                <ul class="point-list">
+                    <li><strong>Mitosis:</strong> Occurs in somatic cells. Produces 2 daughter cells. Number of chromosomes remains the same ($2n \rightarrow 2n$).</li>
+                    <li><strong>Meiosis:</strong> Occurs in germ cells. Produces 4 daughter cells. Number of chromosomes is halved ($2n \rightarrow n$).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function playBio2() {
+            const msg = new SpeechSynthesisUtterance("Chapter 2 explains how we get energy from food. Remember, ATP is the energy currency of the cell.");
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+</body>
+</html>
